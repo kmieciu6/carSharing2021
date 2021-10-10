@@ -1,1 +1,1 @@
-##Testowy commit 
+##Testowy commit
