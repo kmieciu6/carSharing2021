@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
+
 <header class="header">
     <div class="container">
         <a href="" class="logo">
@@ -120,22 +121,53 @@
         </div>
     </section>
     <section class="contact">
+        <h2 class="contact__title">Contact</h2>
         <div class="container">
-            <div class="container">
-                <h2 class="contact__title">Contact</h2>
-                <div class="contact__wrapper">
-                    <div class="label"></div>
-                </div>
+            <div class="container__label">
+            <img class="container__img" src="/images/Form%20Photo.png" alt="">
+            <label class="label">
+                <input class="name" type="text" placeholder="Type your name">
+                <input class="name" type="text" placeholder="Type your e-mail">
+                <input class="name" type="text" placeholder="Type your message">
+                <label class="checkbox">
+                    <input type="checkbox">
+                    <span></span>
+                    <p>I hereby give consent for my personal data included
+                    in my application to be processed for the purposes of
+                    the recruitment process under the European Parliament’s
+                    and Council of the European Union Regulation on the
+                    Protection of Natural Persons as of 27 April 2016,
+                    with regard to the processing of personal data and on
+                    the free movement of such data, and repealing Directive
+                    95/46/EC (Data Protection Directive)</p>
+                </label>
+            </label>
+            </div>
+            <div class="label__sent">
+                <button class="sent">Send</button>
             </div>
         </div>
     </section>
 </main>
 <footer class="footer">
-    <div class="container">
-        Footer
-        <!--.logo .logo--small -->
-        <!--nav.footer-nav-->
-        <!--ul>li-->
+    <div class="footer__container">
+        <div class="footer__logo">
+            <img src="/images/Logo%20Footer.png" alt="">
+            <h2>Car <span>Sharing</span></h2>
+        </div>
+        <nav class="footer__list" >
+            <ul>
+                <li>Home page</li>
+                <li>About US</li>
+                <li>Gallery</li>
+                <li>Share Regulation</li>
+                <li>Price</li>
+                <li>Our Fleet</li>
+                <li>Our Clients</li>
+                <li>Contact</li>
+            </ul>
+            <p>Copyright © Coders Lab</p>
+        </nav>
     </div>
 </footer>
 
